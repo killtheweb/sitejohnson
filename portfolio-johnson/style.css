@@ -1,0 +1,273 @@
+.inter-mainType {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+* {
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+
+h1{
+    font-family: "Inter";
+    font-weight: 700;
+    color: black;
+    font-size: 36pt;
+    /* mix-blend-mode: difference; */
+}
+
+
+h2{
+    font-family: "Inter";
+    font-weight: 700;
+    color: white;
+    font-size: 24pt;
+    /* mix-blend-mode: difference; */
+}
+
+
+h3{
+    font-family: "Inter";
+    font-weight: 700;
+    color: white;
+    font-size: 16pt;
+    /* text-align: justify; */
+    /* mix-blend-mode: difference; */
+}
+
+p{
+    font-family: "Inter";
+    font-weight: 700;
+    color: black;
+
+}
+
+a{
+    text-decoration: underline;
+    font-size: 8pt;
+    color: white;
+}
+
+
+a:visited{
+    font-size: 8pt;
+    color: black;
+}
+
+video{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    position: sticky;
+    /* mix-blend-mode: difference; */
+    z-index: 1000;
+    background-color: white;
+
+}
+
+nav p{
+    width: 33.33333%;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: black;
+}
+
+nav p:first-of-type {
+    text-align: left;
+    margin-left: 4px;
+    
+}
+
+nav p:last-of-type{
+    text-align: right;
+    margin-right: 4px;
+}
+
+.nav-p a{
+    font-size:12pt;
+    text-decoration: none;
+}
+
+
+.nav-p a:hover{
+    font-size:12pt;
+    text-decoration: underline;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.container div {
+    width: 100%;
+    padding: 0.2rem;
+    padding-top: 20px;
+}
+
+.header{
+    width: 100%;
+    height: 300px;
+    overflow-y: hidden;
+    background-color: yellow;
+    display: grid;
+    border-bottom: 3px solid #000;
+
+}
+
+
+.header-2{
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 150px;
+}
+
+.header-2 div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    column-gap: 60px;
+    width: 200% !important;
+    height: 100%;
+    overflow-x: scroll;
+    margin: 10px 8px 10px 8px;
+}
+
+
+.header-2 p{
+    mix-blend-mode: normal;
+    color: black;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.header div{
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+}
+
+.header h1{
+    font-size: 100pt;
+    text-transform: uppercase;
+    text-align: justify;
+    text-overflow: clip;
+    margin: 0;
+}
+
+.header div::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+.container-about{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* mix-blend-mode: exclusion; */
+}
+
+.container-about div {
+    width: 100%;
+    padding: 0.2rem;
+    padding-top: 20px;
+}
+
+.container div::-webkit-scrollbar {
+    display: none;
+  }
+
+.container-about div::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+.container div img{
+    max-width: 100%;   
+}
+
+.container-about div img{
+    max-width: 100%;   
+}
+
+.container div video{
+    max-width: 100%;
+}
+
+.firstC{
+    display: grid;
+    grid-template-rows: auto;
+    max-height: 40em;
+    overflow-y: scroll;
+}
+
+.firstC div{
+    width: 100%;
+    height: 200px;
+}
+
+.firstC div img{
+    opacity: 0;
+    margin-bottom: 150px;
+    max-width: 200px;
+}
+
+.firstC div img:hover{
+    transition: ease-in;
+    opacity: 100;
+}
+
+
+.container p{
+    font-weight: 300;
+    font-size: 10pt;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.container-about p{
+    font-weight: 300;
+    font-size: 10pt;
+    margin: 0;
+    margin-bottom: 5px;
+    /* text-align: justify; */
+}
+
+.secondC{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    max-height: 40em;
+    overflow-y: scroll;    
+
+}
+
+.secondC div{
+    width: 100%;
+}
+
+.thirdC{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    max-height: 40em;
+    overflow-y: scroll;    
+    /* mix-blend-mode: difference; */
+}
+
+
+
